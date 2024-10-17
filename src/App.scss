@@ -1,6 +1,6 @@
-@import "./styles/utils/utils";
-@import "styles/Header.scss";
-@import "styles/Meme.scss";
+@use "./styles/utils/utils";
+@use "styles/Header";
+@use "styles/Meme";
 
 #root {
   max-width: 1280px;
@@ -8,10 +8,10 @@
   margin: 0 auto;
   text-align: center;
 
-  font-family: $mainFont;
+  font-family: Karla, Inter, sans-serif;
   font-size: 16px;
   font-weight: bold;
 
-  color: $mainColor;
-  background-color: $mainColor;
+  color: #fff;
+  background-color: #fff;
 }
