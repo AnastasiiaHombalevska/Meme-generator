@@ -4,7 +4,7 @@ export default function Header() {
     return (
         <header className="header">
             <img
-                src="/public/troll-face.png" 
+                src="/troll-face.png"
                 className="header--image"
                 alt="troll face icon"
             />
