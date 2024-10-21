@@ -1,10 +1,12 @@
 import React from "react"
 
 export default function Header() {
+  const source = '/public/troll-face.png';
+
     return (
         <header className="header">
             <img
-                src="/public/troll-face.png" 
+                src={source}
                 className="header--image"
                 alt="troll face icon"
             />
