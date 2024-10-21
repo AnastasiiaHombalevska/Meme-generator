@@ -1,7 +1,7 @@
 import React from "react"
 
 export default function Header() {
-  const source = '/public/troll-face.png';
+  const source = 'troll-face.png';
 
     return (
         <header className="header">
